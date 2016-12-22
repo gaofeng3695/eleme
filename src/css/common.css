@@ -1,0 +1,12 @@
+html, body {
+	height: 100%;
+}
+body section {
+	height: 100%;
+	width: 100%;
+	color: black;
+	font-size: 16px;
+	position: relative;
+    font-family: "微软雅黑";
+    display: none;
+}

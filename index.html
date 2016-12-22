@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饿了么</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="src/css/common.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/animate.css">
+    <link rel="stylesheet" href="src/css/home.css">
+    <link rel="stylesheet" href="src/css/search.css">
+    <link rel="stylesheet" href="src/css/shop-list.css">
+    <link rel="stylesheet" href="src/css/list.css"/>
+    <link rel="stylesheet" href="src/css/comment.css"/>
+    <link rel="stylesheet" href="src/css/login.css">
+    <link rel="stylesheet" href="src/css/register.css">
+    <link rel="stylesheet" href="src/css/checkout.css"/>
+    <link rel="stylesheet" href="src/css/swipe.css"/>
+</head>
+<body>
+
+    <section id="city-list" class="city-list">
+        <div class="yff_top">
+            <img src="src/img/logo1.png">
+            <ul class="yff_lander">
+                <li><a href="#yff-register">登录</a></li>
+                <li><a href="#city-list">注册</a></li>
+            </ul>
+        </div>
+        <div class="yff_address">
+            <p>当前定位城市：</p>
+            <p>定位不准时，请再城市列表中选择</p>
+        </div>
+        <div class="yff_city">
+            <span>上海</span>
+            <img src="src/img/home_1.png">
+        </div>
+        <div class="hot_city">
+            <h4>热门城市</h4>
+            <ul class="slt_city">
+
+            </ul>
+        </div>
+        <div class="all_city">
+
+        </div>
+    </section>
+
+    <section id ="location" class="search">
+        <div class="header">
+            <span id="direct">
+                <a href="#city-list"><img src="src/img/1L.png"></a>
+            </span>
+            <span id="city">上海</span>
+            <span id="changeCity">
+                <a href="#city-list">切换城市</a>
+            </span>
+        </div>
+
+        <div class="wrap-list">
+            <form action="" method="get">
+                <input type="hidden" name="city_id" value="1">
+                <input type="text" name="keyword" placeholder="输入学校、商务楼、地址">
+                <input type="hidden" name="type" value="search">
+                <input type="submit" value="搜索"  id="submit"> 
+            </form>
+        </div>
+        <div class="history">
+            <div class="h-title">搜索历史</div>
+            <ul class="h-address">
+                <!-- <li>
+                    <p>北京邮电大学</p>
+                    <p>区西土城路10号</p>
+                </li>
+                <li>
+                    <p>北京邮电大学</p>
+                    <p>区西土城路10号</p>
+                </li> -->
+            </ul>
+        </div>
+        <div class="h-list">
+            <ul class="ul">
+               <!--  <li>
+                   <p>北京科技职业学院</p>
+                   <p>北京市昌平区沙河沙阳路18号</p>
+               </li> -->
+            </ul>
+        </div>
+    </section>
+    
+    <section id="shop-list">
+        <div class="gf-header">
+            <div class="gf-l h1"></div>
+            <div class="gf-l h2">
+                北京科技大学昌平校区第二号楼
+            </div>
+            <div class="gf-r h3">登录</div>           
+        </div>
+        <div class="gf-sort swipe" id="mySwipe">
+            <div class="swipe-wrap">
+                <div class="item slider1">
+                </div>
+                <div class="item slider2" ></div>
+            </div>
+            <ul id="position" class="hidden">
+                <li class="cur"></li>
+                <li style="margin-left:-5px"></li>
+            </ul>            
+            
+        </div>
+        <div class="gf-shop">
+            <div class="gf-title">附近商家</div>
+            <ul class="gf-list">              
+            </ul>
+        </div>
+    </section>
+
+    <section id="product" class='product-list' style="">
+        <header class="header">
+            <!--<div class="title">-->
+                <!--<div class="t-left">-->
+                    <!--<img src="src/img/list/logo.png" alt=""/>-->
+                <!--</div>-->
+                <!--<div class="t-right">-->
+                    <!--<h3>汉堡王（品尊国际店）</h3>-->
+                    <!--<p class="introduce">-->
+                        <!--<span>蜂鸟专送</span>-->
+                        <!--<span>/29分钟送达</span>-->
+                        <!--<span>/满70免配送费</span>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="notice clearfix">-->
+                <!--<p>欢迎光临，用餐高峰请提前下单，谢谢</p>-->
+                <!--<i>></i>-->
+            <!--</div>-->
+        </header>
+        <div class="warp">
+            <div class="main">
+                <div class="nav clearfix">
+                    <a href="javascript:void(0);"><span class="active" data-main="main-body">商品</span></a>
+                    <a href="javascript:void(0);"><span data-main="main-body2">商家</span></a>
+                </div>
+                <div class="main-body clearfix">
+                    <div class="subnav">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="main-list">
+                            <!--<dl>-->
+                                <!--<dt>-->
+                                    <!--下午茶优享套餐<span>'''</span>-->
+                                <!--</dt>-->
+                                <!--<dd class="clearfix">-->
+                                    <!--<div class="img">-->
+                                        <!--<img src="" alt=""/>-->
+                                    <!--</div>-->
+                                    <!--<div class="name">-->
+                                        <!--<h3>下午茶套餐</h3>-->
+                                        <!--<p class="jianjie">是大客户打是快乐的哈是厉害，从模组彘萨达姆苛械萨达爱仕达啊是大专</p>-->
+                                        <!--<p class="yueshou">月售<i>4</i>份</p>-->
+                                        <!--<p class="price">￥<i>52</i></p>-->
+                                        <!--<span class="add">+</span>-->
+                                    <!--</div>-->
+                                <!--</dd>-->
+                            <!--</dl>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="main-body2" style="display: none">
+                    <div class="score">
+                        <div class="title clearfix">
+                            <p class="fl">
+                                <span class="fraction">4.7分</span>
+                                <span class="compare">高于周边商家 <i>60.4</i>%</span>
+                            </p>
+                            <p class="fr">
+                                <span class="num"><i>1689</i>条评价</span>
+                                <span class="right"> > </span>
+                            </p>
+                        </div>
+                        <div class="evaluate">
+                            <a href="#comment">送货快(<i>73</i>)</a>
+                            <a href="#comment">送货快(<i>73</i>)</a>
+                            <a href="#comment">送货快(<i>73</i>)</a>
+                        </div>
+                        <div class="evaluate-list clearfix">
+                            <div class="photo">
+                                <img src="" alt=""/>
+                            </div>
+                            <div class="user">
+                                <p class="account"><span class="acc">4*******b</span><span class="time">2016-08</span></p>
+                                <p class="star"><span>******</span>30分钟送达</p>
+                                <p class="kanbudong"><span>超级</span><span>烤翅</span><span>热狗</span></p>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <p><a href="#comment">查看全部评价</a><i> > </i></p>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <dl>
+                            <dt>
+                                活动与属性
+                            </dt>
+                            <dd>
+                                <img src="src/img/list/jian.png" alt=""/>
+                                <span>满50减7元；满100减12元</span>
+                            </dd>
+                            <dd>
+                                <img src="src/img/list/jian.png" alt=""/>
+                                <span>满50减7元；满100减12元</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="security">
+                        <div class="title clearfix">
+                            <h3>食品监督安全公示</h3>
+                            <p>企业认真详情 <i> > </i></p>
+                        </div>
+                        <div class="cont clearfix">
+                            <div class="img"><img src="" alt=""/></div>
+                            <div class="result">
+                                <p class="res">监督检查结果：<span>一般</span></p>
+                                <p>检查日期：<span>2015</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business">
+                        <h3>商家信息</h3>
+                        <p>作为披萨外卖专家湿答答按时爱仕达撒啊是的爱仕达啊爱仕达 </p>
+                        <p>地址：<span>啊盛大盛大是</span></p>
+                        <p>营业时间：<span>12312312</span></p>
+                        <p>营业执照<i> > </i></p>
+                        <p>餐饮服务许可证<i> > </i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="car">
+            <div class="logo">
+
+            </div>
+            <div class="zongjia">
+                <p>￥0</p>
+            </div>
+            <div class="jiesuan">
+                <a href="#checkout">结算</a>
+            </div>
+        </div>
+    </section>
+
+	<section id="comment">
+	
+		<div class="top">
+			<p>评价</p>
+		</div>
+		<div class="content">
+			<div class="shop-rate">
+				<div class="shop-rate-overview">
+				
+					<div class="col1">
+						<p>4.5</p>
+						<span>综合评价</span>
+						<small>高于周边商家89.5%</small>
+					</div>
+					<div class="col2">
+						<div class="score-block">
+							<span class="score-title">服务态度</span>
+							<span class="score-content">4.7
+								<div></div>
+								<span class="score-value"></span>
+							</span>
+						</div>
+						<div class="score-block">
+							<span class="score-title">菜品评价</span>
+							<span class="score-content">4.7
+								<div></div>
+								<span class="score-value"></span>
+							</span>
+						</div>
+						<div class="score-block">
+							<span class="score-title">送达时间</span>
+							<span class="score-value">28分钟</span>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="rate-section">
+				
+					<div class="rate-tags">
+						<ul class="tag-list">
+							<li>全部（22）</li>
+							<li>满意（20）</li>
+							<li class="unsatisfied">不满意（2）</li>
+						</ul>
+					</div>
+					<ul class="rate-list">
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+					</ul>
+					<ul class="rate-list">
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+					</ul>
+					<ul class="rate-list">
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+						<li>
+							<img src="src/img/comment.png" alt="用户头像" class="rate-avatar">
+							<div class="rate">
+								<h3 class="rate-username">K*********d</h3>
+								<span class="rate-songtime">90分钟送到</span>
+							</div>
+							<small class="rate-time">2016-08-09 13:24</small>
+						</li>
+				
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+   <section id="yff-login" class="yff-login">
+        <div class="login-top">
+            <span><a href="#city-list"><img src="src/img/1L.png"></a></span>
+            <span><b>登录</b></span>
+            <span class="register">
+                <a href="#city-list">注册</a>
+            </span>
+        </div>
+        <form class="login-yz">
+            <div>
+                <input class="user" placeholder="手机/用户名/电子邮箱">
+                <p class="input-tip">请输入手机或用户名或电子邮箱</p>
+            </div>
+            <div>
+                <input type="password" placeholder="密码">
+                <p class="input-tip">请输入密码</p>
+            </div>
+            <div>
+                <input class="login-yzm" style="width:7.04rem" type="text" placeholder="验证码" maxlength="4" ng-minlength="4">
+                <div style="float:right">
+                    <p>看不清?</p>
+                    <a href="#" style="text-decoration:underline; color:#3199e8;">换一张</a>
+                </div>
+                <img style="float:right" alt="验证码" title="请输入验证码" style="clear:both" src="src/img/34.jpg">
+                <div>
+                    <p class="input-tip">请正确输入验证码</p>
+                </div>
+            </div>
+            <button disabled="disabled">登录</button>
+        </form>
+        <div class="yff-forget">
+            <a href="#">忘记密码</a>
+            <a href="#">短信验证码登录</a>
+        </div>
+    </section>
+
+    <section id="yff-register" class="yff-register">
+        <div class="yff-register-top">
+            <span><a href="#city-list"><img src="src/img/1L.png"></a></span>
+            <span id="register"><b>注册</b></span>
+        </div>
+        <form class="register-zc">
+            <div>
+                <input class="user" placeholder="手机/用户名/电子邮箱">
+                <p class="input-tip">手机号码不正确</p>
+                <p class="input-tip">请填写手机号</p>
+            </div>
+            <div>
+                <input type="text" placeholder="请输入验证码" maxlength="4" ng-minlength="4">
+                <span class="send">发送验证码</span>
+                <p class="input-tip">请正确输入验证码</p>
+            </div>
+        </form>
+        <div class="password">
+            <input type="password" placeholder="密码">
+            <p class="input-tip">请输入密码</p>
+            <p class="input-tip">密码输入有误</p>
+        </div>
+        <button disabled="disabled">登录</button>
+        <div class="protocol"><a href="#">使用条款和协议</a></div>
+    </section>
+    <section id="checkout" class="checkout">
+        <div class="header">
+            <span><a href="#city-list"><img src="src/img/1L.png"></a></span>
+            <span id="city">确认订单</span>
+            <span id="changeCity">
+                <a href="#">立即登录</a>
+            </span>
+        </div>
+        <div>
+            <div class="address-item">
+                <span>请添加一个收货地址</span>
+                <span><img src="src/img/2L.png"></span>
+            </div>
+            <!-- 添加地址- start-->
+            <div class="addressform enter-transition">
+                <header> 
+                    <div class="left-button">
+                        <img src="src/img/1L.png" alt="">
+                    </div> 
+                    <div class="title-lgb title-left-transition">
+                        添加地址
+                    </div>
+                </header>
+                <div class="formbloack username">
+                    <div class="label-wrap">联系人</div> 
+                    <div class="input-group-wrap"> 
+                        <div class="input-wrap"> 
+                            <input placeholder="你的姓名"> 
+                        </div>
+                        <div class="input-wrap bottom"> 
+                            <span class="form-radio">
+                                <span class="radio-icon"></span> 先生 
+                            </span>
+                            <span class="form-radio">   
+                                <span class="radio-icon"></span> 女士
+                            </span> 
+                        </div> 
+                    </div> 
+                </div>
+                <div class="formbloack phone" > 
+                    <div class="label-wrap" >联系电话</div> 
+                    <div class="input-group-wrap rightbtn"> 
+                        <div class="input-wrap"> 
+                            <input placeholder="你的手机号" type="tel" >
+                            <img src="src/img/7L.png" class="inputicon-right"> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="formbloack address"> 
+                    <div class="label-wrap">送餐地址</div> 
+                    <div class="input-group-wrap"> 
+                        <div class="input-wrap"> 
+                            <input placeholder="小区/写字楼/学校等" readonly="true" value=""> 
+                        </div> 
+                        <div class="input-wrap bottom">
+                            <input rows="2" placeholder="详细地址(如门牌号等)"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="formbloack tags">
+                    <div class="label-wrap">标签</div>
+                    <div class="input-wrap tags">
+                        <span class="address-tag">无</span>
+                        <select class="select-tags" >
+                            <option value="0"> 无 </option>
+                            <option value="1"> 家 </option>
+                            <option value="2"> 学校 </option>
+                            <option  value="3"> 公司 </option>
+                        </select> 
+                        <img src="src/img/8L.png" class="inputicon-right">
+                    </div>
+                </div>
+                <div class="form-button-wrap"> 
+                    <button class="form-button" type="button">
+                        确定
+                    </button> 
+                </div>
+            </div>
+            <!-- 添加地址- end-->
+        </div>
+        
+        <div class="time-item">
+            <span>送达时间</span>
+            <span class="delivery-select"> 
+                <select dir="rtl">
+                    <option value=""> 立即送达 </option>
+                </select>
+                <img src="src/img/2L.png">
+            </span>
+        </div>
+        <div class="pay-item">
+            <span>在线支付</span> 
+            <span class="cartitem-right"> 
+                <small>（商家仅支持在线支付）</small> 
+                <img src="src/img/3L.png">
+            </span>
+        </div>
+        <div class="cart-group">
+            <ul class="foodlist">
+                <li> 
+                    <span class="cellname">珍珠奶茶-冰</span> 
+                    <span class="cellquantity">x1</span> 
+                    <span class="celltotal">¥9</span>
+                </li>
+                <li> 
+                    <span class="cellname">蛋糕奶茶-冰</span> 
+                    <span class="cellquantity">x1</span> 
+                    <span class="celltotal">¥11</span>
+                </li>
+            </ul>
+            <ul class="foodlist extra"> 
+                <li> 
+                    <span class="cellname"> 
+                        配送费 
+                        <small >
+                            本订单由【牛乃奶奶（西直门店）】提供配送
+                        </small> 
+                    </span> 
+                    <span class="cellquantity"></span> 
+                    <span class="celltotal">¥3</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div class="cart-item">
+                <span class="cartitem-left">订单备注</span>
+                <span class="text-ellipsis cartitem-right">
+                    <span>口味、偏好等</span>
+                    <img src="src/img/2L.png">
+                </span>
+            </div>
+            <div class="cart-secondary show"> 
+                <header class="eleme-header" >
+                    <a href="javascript:" slot="left">
+                        <img class="lgb-img" src="src/img/1L.png" alt="">
+                    </a> 
+                    <span>订单备注</span> 
+                    <a href="javascript"></a>
+                </header>
+                <div class="secondary-wrapper"> 
+                    <div class="section"> 
+                        <h3>快速备注</h3>
+                        <div class="switch">
+                            <span class="switch-item">去冰</span>
+                            <span class="switch-item">少冰</span>
+                        </div>
+                    </div> 
+                    <div class="section"> 
+                        <h3>其他备注</h3>
+                        <textarea class="" name="_" placeholder="请输入备注内容" maxlength="50">
+                        </textarea> 
+                    </div>
+                    <button class="btn-block">确定</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cart-item disabled"> 
+            <span class="cartitem-left">发票抬头</span> 
+            <span class="text-ellipsis cartitem-right"> 
+                <span>商家不支持开发票</span>
+            </span>
+        </div>
+        <div class="serviceinfo"> 
+            <a href="#"> 优惠说明 <img src="src/img/4L.png"></a></div>
+        <footer> 
+            <span>待支付 ¥23</span> 
+            <small style="display: none;"> ｜优惠 ¥0 </small> 
+            <button class="submitbtn"> 确认下单 </button>
+        </footer>
+
+    
+    <script src="src/js/plugins/rem.js"></script>
+    <script src="src/js/plugins/zepto.js"></script>
+    <script src="src/js/plugins/director.js"></script>
+    <script src="src/js/plugins/fastclick.js"></script>
+    <script src="src/js/plugins/iscroll.js"></script>
+    <script src="src/js/plugins/swipe.js"></script>
+
+    <script src="src/js/module/home.js"></script>
+    <script src="src/js/module/location.js"></script>
+    <script src="src/js/module/shop-list.js"></script>
+    <script src="src/js/module/product.js"></script>
+    <script src="src/js/module/comment.js"></script>
+    <script src="src/js/module/login.js"></script>
+    <script src="src/js/module/checkout.js"></script>
+   
+    <script src="src/js/router.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

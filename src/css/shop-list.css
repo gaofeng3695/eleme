@@ -1,0 +1,117 @@
+.gf-l{
+	float: left;
+}
+.gf-r{
+	float: right;
+}
+.gf-header{
+	width: 100%;
+	background: #3190e8;
+	overflow: hidden;
+	font-size: 0.682667rem;
+	color:white;
+	font-weight: 500;
+	line-height: 1.92rem;	
+}
+.gf-header .h1{
+	height: 1.92rem;
+	width: 3.925333rem;
+	box-sizing: border-box;
+	background: url(../img/shoplist/l1.png) no-repeat 0.597333rem center ;
+	background-size: 0.682667rem;
+}
+.gf-header .h2{
+	width: 7.466667rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+.gf-header .h3{
+	width: 2.986667rem;
+	text-align: center;
+}
+.gf-sort{
+	background: white;
+	margin-bottom: 0.426667rem;
+	border-bottom: 1px solid #ddd;
+}
+.gf-sort .item{
+	height: 7.466667rem;
+	padding-bottom: 0.853333rem;
+	box-sizing: border-box;
+}
+.gf-unit{
+	font-size: 0.469333rem;
+	width: 25%;
+	text-align: center;
+	padding-top: 0.32rem ;
+}
+.gf-unit .gf-img{
+	height: 2.005333rem;
+
+}
+.gf-unit .gf-img img{
+	height: 100%;
+}
+.gf-unit .gf-name{
+	line-height: 1.066667rem;
+} 
+
+.gf-shop{
+	background: #fff;
+}
+.gf-shop .gf-title{
+	height: 1.493333rem;
+	line-height:1.493333rem;
+	color: #999;
+	padding-left: 1.6rem;
+	font-size: 0.512rem;
+	background: #fff url(../img/shoplist/l2.png) no-repeat 0.64rem center;
+	background-size: 0.597333rem;
+
+}
+.gf-list li{
+	padding: 0.64rem 0 ; 
+	overflow: hidden;
+}
+.gf-list li .gf-s1{
+	padding:0 0.426667rem;
+	
+}
+.gf-list li .gf-s1 img{
+	display: block;
+	height: 2.56rem;
+	width: 2.56rem;
+}
+.gf-list li .gf-s2{
+	width: 100%;
+	margin-left: -3.84rem;
+	padding-left: 3.84rem;
+	box-sizing: border-box;
+ }
+.gf-list li .gf-s2 .gf-t1{	
+	font-weight: 800;
+	font-size: 0.597333rem;
+}
+.gf-list li .gf-s2 .gf-t2{	
+	margin-top: 0.298667rem;
+	font-size:0.426667rem;
+	color: #777;
+}
+.gf-list li .gf-s2 .gf-t3{
+	margin-top: 0.298667rem;	
+	font-size: 0.426667rem;
+	color: #777;
+}
+.gf-list li .gf-s2 .gf-t3 span.gf-l{
+	margin-right: 0.512rem;
+}
+.gf-list li .gf-s2 .gf-t3 span.gf-r{
+	margin-left: 0.512rem;
+}
+.gf-list li .gf-s2 .gf-t3 span.gf-time{
+	color: #2797ff;
+}
+
+

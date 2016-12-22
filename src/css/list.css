@@ -1,0 +1,323 @@
+.product-list {
+  width: 100%;
+  height: 100%; }
+  .product-list header {
+    padding-top: 0.42667rem;
+    width: 100%;
+    background-color: #bfb8c8; }
+    .product-list header .title {
+      overflow: hidden; }
+      .product-list header .title .t-left {
+        width: 3.24267rem;
+        float: left;
+        text-align: right; }
+      .product-list header .title .t-right {
+        float: right;
+        margin-left: 0.42667rem;
+        width: 12.33067rem;
+        color: #fff; }
+        .product-list header .title .t-right h3 {
+          font-size: 26px; }
+        .product-list header .title .t-right p {
+          font-size: 10px; }
+    .product-list header .notice {
+      width: 100%;
+      background-color: #a39daa;
+      line-height: 0.85333rem;
+      height: 0.85333rem;
+      overflow: hidden;
+      overflow: hidden; }
+      .product-list header .notice p {
+        font-size: 14px;
+        float: left; }
+      .product-list header .notice i {
+        float: right;
+        margin-right: 0.21333rem; }
+  .product-list .main {
+    width: 100%; }
+    .product-list .main .nav {
+      background-color: #fff;
+      width: 100%; }
+      .product-list .main .nav a {
+        display: block;
+        float: left;
+        width: 50%;
+        padding: 0.34133rem 0;
+        text-align: center;
+        color: #000; }
+        .product-list .main .nav a span {
+          font-size: 0.512rem;
+          display: inline-block;
+          width: 1.408rem;
+          line-height: 1.152rem;
+          border-bottom: solid 2px #fff;
+          color: #000; }
+          .product-list .main .nav a span.active {
+            border-bottom: solid 2px #3190e8;
+            color: #3190e8; }
+    .product-list .main .main-body {
+      height: 26.58133rem; }
+      .product-list .main .main-body .subnav {
+        height: 100%;
+        width: 3.62667rem;
+        background-color: #f8f8f8;
+        overflow: hidden;
+        float: left;
+        position: relative; }
+        .product-list .main .main-body .subnav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          height: 2.816rem;
+          border-bottom: solid 0.04267rem #ededed;
+          border-left: solid 0.128rem #f8f8f8;
+          padding: 0.81067rem 0;
+          padding-left: 0.21333rem;
+          font-size: 0.512rem; }
+          .product-list .main .main-body .subnav ul li a {
+            color: #000; }
+            .product-list .main .main-body .subnav ul li a img {
+              width: 0.55467rem;
+              height: 0.55467rem; }
+          .product-list .main .main-body .subnav ul li.active {
+            font-weight: bold;
+            border-left: solid 0.128rem #3190e8;
+            background-color: #000; }
+      .product-list .main .main-body .box {
+        height: 100%;
+        position: relative;
+        width: 12.37333rem;
+        float: left;
+        overflow: hidden; }
+      .product-list .main .main-body .main-list dl {
+        width: 100%;
+        background-color: #fff; }
+        .product-list .main .main-body .main-list dl dt {
+          font-size: 0.512rem;
+          line-height: 1.36533rem;
+          background-color: #f1f1f1;
+          padding: 0 0.42667rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body .main-list dl dt span {
+            margin-left: 0.42667rem;
+            font-size: 0.34133rem;
+            color: #666; }
+          .product-list .main .main-body .main-list dl dt i {
+            float: right; }
+        .product-list .main .main-body .main-list dl dd {
+          padding: 0.64rem 0.59733rem 0.64rem 0.42667rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body .main-list dl dd .img {
+            width: 2.64533rem;
+            height: 4.01067rem;
+            float: left; }
+            .product-list .main .main-body .main-list dl dd .img img {
+              width: 2.38933rem; }
+          .product-list .main .main-body .main-list dl dd .name {
+            width: 8.66133rem;
+            float: left; }
+            .product-list .main .main-body .main-list dl dd .name .fix {
+              height: 3.10267rem; }
+            .product-list .main .main-body .main-list dl dd .name h3 {
+              font-size: 0.55467rem;
+              font-weight: bold; }
+            .product-list .main .main-body .main-list dl dd .name .jianjie {
+              font-size: 0.384rem;
+              color: #999999; }
+            .product-list .main .main-body .main-list dl dd .name .yueshou {
+              font-size: 0.42667rem;
+              color: #666666;
+              margin-top: 0.34133rem; }
+            .product-list .main .main-body .main-list dl dd .name .price {
+              font-size: 0.34133rem;
+              color: #ff6600;
+              float: left;
+              margin-top: 0.34133rem; }
+              .product-list .main .main-body .main-list dl dd .name .price i {
+                font-size: 0.512rem; }
+            .product-list .main .main-body .main-list dl dd .name .num {
+              float: right; }
+              .product-list .main .main-body .main-list dl dd .name .num .ccc {
+                display: inline-block;
+                width: 0.93867rem;
+                height: 0.93867rem;
+                border-radius: 50%;
+                background-color: #3190e8;
+                line-height: 0.93867rem;
+                text-align: center;
+                font-size: 0.55467rem;
+                color: #fff; }
+              .product-list .main .main-body .main-list dl dd .name .num .prev {
+                display: none; }
+              .product-list .main .main-body .main-list dl dd .name .num .shuliang {
+                display: inline-block;
+                width: 0.93867rem;
+                text-align: center;
+                font-size: 0.42667rem; }
+    .product-list .main .main-body2 {
+      margin-top: 0.42667rem;
+      width: 100%; }
+      .product-list .main .main-body2 .score {
+        background-color: #fff;
+        width: 100%;
+        padding: 0 0.64rem;
+        box-sizing: border-box; }
+        .product-list .main .main-body2 .score .title {
+          margin: 0 -0.64rem;
+          padding: 0 0.64rem;
+          line-height: 1.70667rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body2 .score .title .fl {
+            float: left;
+            font-size: 0.512rem; }
+            .product-list .main .main-body2 .score .title .fl .fraction {
+              color: #ff6000; }
+          .product-list .main .main-body2 .score .title .fr {
+            float: right;
+            font-size: 0.512rem;
+            color: #aa99bb; }
+        .product-list .main .main-body2 .score .evaluate {
+          line-height: 3.24267rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body2 .score .evaluate a {
+            display: inline-block;
+            padding: 0 0.42667rem;
+            line-height: 1.70667rem;
+            background-color: #ebf5ff;
+            border-radius: 0.29867rem;
+            color: #000000; }
+        .product-list .main .main-body2 .score .evaluate-list {
+          padding-bottom: 1.024rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body2 .score .evaluate-list .photo {
+            height: 1.28rem;
+            width: 1.92rem;
+            float: left; }
+          .product-list .main .main-body2 .score .evaluate-list .user {
+            width: 12.8rem;
+            padding-top: 0.64rem;
+            float: left; }
+            .product-list .main .main-body2 .score .evaluate-list .user .account {
+              overflow: hidden;
+              line-height: 0.768rem; }
+              .product-list .main .main-body2 .score .evaluate-list .user .account .acc {
+                font-size: 0.42667rem;
+                float: left; }
+              .product-list .main .main-body2 .score .evaluate-list .user .account .time {
+                font-size: 0.384rem;
+                float: right; }
+            .product-list .main .main-body2 .score .evaluate-list .user .star {
+              margin-top: 0.512rem;
+              font-size: 0.42667rem; }
+            .product-list .main .main-body2 .score .evaluate-list .user .kanbudong {
+              margin-top: 0.384rem; }
+              .product-list .main .main-body2 .score .evaluate-list .user .kanbudong span {
+                margin: 0 0.17067rem;
+                height: 1.024rem;
+                display: inline-block;
+                width: 2.47467rem;
+                line-height: 1.024rem;
+                border: solid 1px #ddd;
+                text-align: center;
+                border-radius: 0.17067rem;
+                color: #999; }
+        .product-list .main .main-body2 .score .more {
+          line-height: 2.13333rem;
+          text-align: center;
+          color: #999999; }
+          .product-list .main .main-body2 .score .more p a {
+            color: #999; }
+      .product-list .main .main-body2 .activity {
+        padding: 0 0.64rem;
+        background-color: #fff;
+        margin-top: 0.42667rem;
+        line-height: 1.62133rem; }
+        .product-list .main .main-body2 .activity dl dt {
+          margin: 0 -0.64rem;
+          padding: 0 0.64rem;
+          font-size: 0.55467rem;
+          border-bottom: solid 1px #eee; }
+        .product-list .main .main-body2 .activity dl dd {
+          font-size: 0.512rem;
+          color: #666666;
+          line-height: 1.28rem; }
+          .product-list .main .main-body2 .activity dl dd img {
+            vertical-align: middle; }
+      .product-list .main .main-body2 .security {
+        margin-top: 0.42667rem;
+        background-color: #fff;
+        padding: 0 0.64rem; }
+        .product-list .main .main-body2 .security .title {
+          font-size: 0.55467rem;
+          margin: 0 -0.64rem;
+          padding: 0.64rem;
+          border-bottom: solid 1px #eee; }
+          .product-list .main .main-body2 .security .title h3 {
+            float: left;
+            font-weight: bold; }
+          .product-list .main .main-body2 .security .title p {
+            float: right; }
+        .product-list .main .main-body2 .security .cont .img {
+          float: left;
+          width: 3.41333rem;
+          text-align: center; }
+        .product-list .main .main-body2 .security .cont .result {
+          padding: 0.68267rem 0;
+          float: left;
+          line-height: 1.10933rem;
+          color: #666666; }
+          .product-list .main .main-body2 .security .cont .result .res span {
+            color: #fdbb00; }
+      .product-list .main .main-body2 .business {
+        padding: 0 0.64rem;
+        margin-top: 0.42667rem;
+        background-color: #fff; }
+        .product-list .main .main-body2 .business h3 {
+          margin: 0 -0.64rem;
+          padding: 0 0.64rem;
+          border-bottom: solid 1px #eee;
+          line-height: 1.62133rem;
+          font-size: 0.55467rem;
+          font-weight: bold; }
+        .product-list .main .main-body2 .business p {
+          padding: 0.81067rem 0;
+          border-bottom: solid 1px #eee;
+          font-size: 0.512rem;
+          color: #666666; }
+          .product-list .main .main-body2 .business p i {
+            float: right; }
+  .product-list .car {
+    width: 100%;
+    height: 2.176rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .7; }
+    .product-list .car .logo {
+      width: 2.048rem;
+      height: 2.048rem;
+      border-radius: 100%;
+      position: absolute;
+      left: 0.512rem;
+      bottom: 0.21333rem;
+      background-color: #404040;
+      border: solid 5px #4e4e4e; }
+    .product-list .car .zongjia {
+      float: left;
+      margin-left: 3.49867rem;
+      font-size: 0.68267rem;
+      color: #fff;
+      line-height: 2.176rem; }
+    .product-list .car .jiesuan {
+      width: 4.608rem;
+      height: 100%;
+      background-color: #55db6c;
+      opacity: .8;
+      float: right;
+      line-height: 2.176rem;
+      text-align: center; }
+      .product-list .car .jiesuan a {
+        font-size: 0.55467rem;
+        color: #fff; }
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,520 @@
+.checkout{
+	height: 100%;
+	width: 100%;
+	background-color: #eee;
+}
+.checkout .header{
+	height:1.56rem;
+	width: 100%;
+	background-color: #3199e8;
+	color: #fff;
+	font-weight: bold;
+	display: flex;
+}
+.checkout .header span{
+	width: 22%;
+}
+.checkout .header span:nth-child(1){
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 0.8rem;
+}
+
+.checkout .header span:nth-child(2){
+	flex-grow: 2;
+	line-height: 1.56rem;
+	text-align: center;
+	padding-right: 1.5rem;
+}
+.checkout .header span:nth-child(3) a{
+	display: block;
+	font-size: 14px;
+	line-height: 1.56rem;
+	text-align: right;
+	margin-right: 0.8rem;
+	box-sizing: border-box;
+	color:#fff;
+}
+.address-item{
+	height:3.266667rem;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+}
+.address-item span:nth-child(1){
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 85%;
+	line-height: 3.266667rem;
+	padding-left: 2.578667rem;
+}
+.address-item span:nth-child(2){
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.time-item{
+	height: 1.56rem;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 0.5rem;
+	display: flex;
+}
+.time-item span:nth-child(1){
+	width: 65%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 1rem;
+}
+.time-item span:nth-child(2){
+	width: 35%;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left:1rem;
+}
+.time-item span:nth-child(2) select{
+	border:none;
+	-webkit-user-select: none;
+	outline: none;
+	font:14px  Arial;
+	text-align: left;
+	padding-right: 0.3rem;
+}
+.pay-item{
+	height: 1.56rem;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 0.5rem;
+	display: flex;
+	border: 1px solid #ddd;
+    border-width: .013333rem 0;
+}
+.pay-item span:nth-child(1){
+	width: 35%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 1rem;
+}
+.pay-item span:nth-child(2){
+	width: 65%;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left:3.6rem;
+    font-size: 12px;
+}
+.cart-group{
+	background-color: #fff;
+	width: 100%;
+	margin-top: 0.5rem;
+	border: 1px solid #ddd;
+    border-width: .013333rem 0;
+}
+.cart-group .foodlist{
+    color: #666;
+    margin-left:1rem;
+}
+.cart-group .foodlist li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: inherit;
+    padding: 0.8rem 0;
+    font-size: 16px;
+}
+.foodlist li .cellname{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-box-flex: 9;
+    -ms-flex: 9;
+    flex: 9;
+    display: block;
+    width: 0;
+}
+.foodlist li .cellquantity{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    width: 0;
+    text-align: right;
+    color: #999;
+}
+.foodlist li .celltotal{
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    display: block;
+    width: 0;
+    text-align: right;
+    padding-right: 0.8rem;
+}
+.cart-group .extra{
+    margin-top: .133333rem;
+    color: #f80;
+    border-top: 1px solid #ddd;
+}
+.foodlist li .cellname small{
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0.8rem  0;
+    color: #333;
+    box-sizing: border-box;
+   	padding-left: 1rem;
+    background-color: #fff;
+}
+.cart-item .cartitem-right {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 14px;
+    max-width: 6.933333rem;
+    padding-right: 1.4rem;
+}
+.cart-item .cartitem-left {
+    color: #333;
+    font-size: 16px;
+}
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cart-item .cartitem-right img{
+	padding-left: 0.8rem;
+}
+.disabled{
+	margin: 0;
+}
+.disabled .cartitem-left,.disabled .cartitem-right{
+	color: #bbb;
+}
+footer {
+    height: 1.56rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #3c3c3c;
+}
+footer span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56rem;
+    padding-left: 1rem;
+}
+footer small {
+    color: #999;
+    font-size: 12px;
+}
+footer .submitbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #56d176;
+    min-width: 6.4rem;
+    padding: 0 .133333rem;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+button, input, select, textarea {
+    outline: none;
+}
+.serviceinfo {
+    text-align: right;
+    margin-top: -.133333rem;
+    padding: 0 .4rem;
+}
+.serviceinfo a {
+    color: #999;
+    font-size: .32rem;
+    padding-right: 1.4rem;
+}
+.serviceinfo img {
+    width: .8rem;
+    height: .8rem;
+    vertical-align: middle;
+    max-width: 100%;
+}
+/* 添加地址--->start */
+.addressform{
+    position: absolute;
+    z-index: 21;
+    left: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: none;
+}
+.addressform header{
+    background-color: #3199e8;
+    position: relative;
+    padding: .32rem .6rem;
+    height: 1.133333rem;
+    color: #fff;
+    font-size: .426667rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-lgb{
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    line-height: 1.6rem;
+    font-size: 16px;
+    text-align: center;
+}
+.formbloack{
+    background-color: #fff;
+    padding-left: .373333rem;
+    padding-right: .386667rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    position: relative;
+}
+.formbloack .label-wrap{
+    flex-basis: 4.2rem;
+    padding: .73333rem 0;
+    font-size: 0.65rem;
+    color: #333;
+}
+.formbloack .input-group-wrap{
+    flex: 1;
+    display: block;
+    width: 0;
+}
+.formbloack .input-wrap{
+    flex: 1 1 0;
+    padding: .73333rem 0;
+    display: flex;
+    align-items: center;
+}
+.formbloack input{
+    outline: none;
+    font-size: 0.6rem;
+    color: #333;
+    border: none;
+    flex: 1;
+    display: block;
+    width: 0;
+}
+.formbloack .input-wrap.bottom{
+    border-top: 1px solid #eee;
+}
+.formbloack .input-wrap{
+    flex: 1 1 0;
+    padding: 0.8rem 0;
+    display: flex;
+    align-items: center;
+}
+.formbloack .form-radio{
+    display: flex;
+    margin-right: 1.84rem;
+    color: #333;
+    font-size: 0.65rem;
+}
+.formbloack .radio-icon{
+    display: inline-block;
+    width: .533333rem;
+    height: .633333rem;
+    margin-right: .313333rem;
+    background: url('../img/5L.png') no-repeat;
+    background-size: contain;
+}
+.formbloack .radio-icon.checked{
+    background: url('../img/6L.png') no-repeat;
+    background-size: contain;
+}
+.formbloack .inputicon-right{
+   	height: .5rem;
+    margin-right: .826667rem;
+    margin-left: .326667rem;
+}
+img{
+	max-width: 100%;
+}
+.address-tag{
+    display: inline-block;
+    background-color: #3190e8;
+    border-radius: .093333rem;
+    font-size: .293333rem;
+    padding: 0 .066667rem;
+    min-width: 2em;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    margin-right: .08rem;
+    flex: none;
+}
+.formbloack .input-wrap.tags{
+    justify-content: flex-end;
+    position: relative;
+}
+.select-tags{
+    opacity: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+button, input, select, textarea {
+    outline: none;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.form-button-wrap{
+    padding: .533333rem .4rem;
+    display: flex;
+}
+.form-button-wrap .form-button{
+    background: #56d176;
+    text-align: center;
+    border-radius: .3rem;
+    flex: 1;
+    display: block;
+    width: 0;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #fff;
+    padding: .333333rem 0;
+    border: none;
+    font-weight: 800;
+}
+/* 添加地址---->end */
+
+/* 订单备注--->start */
+.cart-secondary {
+    position: absolute;
+    background-color: #eee;
+    left:100%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 21;
+    display: none;
+}
+.eleme-header span {
+    max-width: 50%;
+   font-size: 0.8rem;
+}
+.eleme-header .lgb-img{
+    margin-top: 0.4rem
+}
+.eleme-header, .eleme-header span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.eleme-header {
+    position: relative;
+    background-color: #3199e8;
+    color: #fff;
+    text-align: center;
+    line-height: 1.373333rem;
+    font-size: .466667rem;
+    display: flex;
+    justify-content: space-between;
+}
+.secondary-wrapper{
+    box-sizing: border-box;
+    font-size: .373333rem;
+}
+.secondary-wrapper .section{
+    padding: .246667rem .6rem
+}
+.section:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+}
+.section {
+    background: #fff;
+    margin: .5rem 0;
+    border: 1px solid #ddd;
+    border-width: .013333rem 0;
+}
+.secondary-wrapper h3{
+    color: #666;
+    margin-bottom: 0.36rem;
+    font-size: .646667rem;
+}
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+.switch{
+    display: inline-block;
+    margin: 0 0 .36667rem 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: .106667rem;
+    font-size: .32rem;
+}
+.switch .switch-item:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+.switch .switch-item{
+    display: inline-block;
+  	padding: .34rem .393333rem;
+    line-height: 1;
+    min-width: 1.733333rem;
+    text-align: center;
+}
+.switch .selected{
+    background: #3190e8;
+    color: #fff;
+}
+.secondary-wrapper textarea{
+    width: 100%;
+    height: 3.4rem;
+    padding: .133333rem;
+    border: .013333rem solid #ccc;
+    font-size: .32rem;
+    background: #eee;
+    color: #666;
+    resize: none;
+}
+.secondary-wrapper button{
+    display: block;
+    width: 15rem;
+    margin: 0 auto;
+}
+.btn-block {
+    width: 100%;
+}
+.btn-block{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: #fff;
+    background-color: #56d176;
+    border-radius: .053333rem;
+    border: none;
+    display: block;
+    text-align: center;
+}
+/* 订单备注--->end */

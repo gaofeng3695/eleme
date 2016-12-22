@@ -1,0 +1,171 @@
+/*标题*/
+.top{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #2196f3;
+    color: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    z-index: 999;
+	letter-spacing: 0.2rem;
+}
+
+/*内容*/
+.content{
+	background: #eee;
+}
+.content .shop-rate{
+	padding-top: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+	/*内容上半部分，评分部分*/
+.shop-rate .shop-rate-overview{
+	background: #fff;
+	padding: 0.4rem;
+	font-size: 0.36rem;
+	margin-bottom: 0.4rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.shop-rate .shop-rate-overview .col1{
+	padding: 0.4rem;
+	border-right: 1px solid #ddd;
+	width: 40%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 0.8rem;
+	
+}
+.shop-rate .shop-rate-overview .col1 p{
+	color: #f60;
+}
+.shop-rate .shop-rate-overview .col1 small{
+	font-size: 0.266667rem;
+	color: #999;
+}
+
+.shop-rate .shop-rate-overview .col2{
+	font-size: 0.37rem;
+	line-height: 0.5rem;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.shop-rate .shop-rate-overview .col2 .score-block{
+	margin: 0.133333rem 0;
+	margin-left: 1rem;
+}
+.shop-rate .shop-rate-overview .col2 .score-block .score-content{
+	padding-left: 0.266667rem;
+	color: #f60;
+}
+.shop-rate .shop-rate-overview .col2 .score-block .score-value{
+	padding-left: 0.266667rem;
+	color: #666;
+}
+
+/*	内容下半部分：ul li 部分*/
+.shop-rate .rate-section{
+	background-color: #fff;
+	padding: 0.4rem 0.32rem;
+	font-size: 0.36rem;
+}
+
+	/*	下半部分上面的 .rate-tags下的 ul*/
+.shop-rate .rate-section .rate-tags{
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #ddd;
+}
+.shop-rate .rate-section .rate-tags .tag-list{
+	
+}
+.shop-rate .rate-section .rate-tags .tag-list li{
+	display: inline-block;
+	padding: 0.266667rem;
+	margin: 0.066667rem 0.133333rem;
+	border-radius: 0.133333rem;
+	color: #6d7885;
+	background-color: #ebf5ff;
+}
+
+.shop-rate .rate-section .rate-tags .tag-list li.unsatisfied {
+  color: #aaa;
+  background: #f5f5f5;
+}
+
+.shop-rate .rate-section .rate-tags .tag-list li.active {
+  color: #fff;
+  background: #3190e8;
+}
+
+.shop-rate .rate-section .rate-tags .tag-list li.unsatisfied.active {
+  color: #fff;
+  background: #ccc;
+}
+
+/*	下半部分下面的 .rate-list 下的 ul li*/
+.shop-rate .rate-section .rate-list{
+	display: none;
+}
+.shop-rate .rate-section .rate-list.active{
+	display: block;
+}
+
+.shop-rate .rate-section .rate-list li{
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.shop-rate .rate-section .rate-list li .rate-avatar{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0.3rem;
+}
+.shop-rate .rate-section .rate-list li .rate{
+    padding-left: 1.5rem;
+}
+.shop-rate .rate-section .rate-list li .rate .rate-username{
+	font-size: .346667rem;
+    margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+.shop-rate .rate-section .rate-list li .rate .rate-songtime{
+	font-size: .333333rem;
+    color: #999;
+    vertical-align: middle;
+	padding-top: 0.5rem;
+}
+.shop-rate .rate-section .rate-list li .rate-time{
+	position: absolute;
+	right: 0;
+	top: 0.4rem;
+	color: #999;
+	font-size: 0.32rem;
+	
+}
+
+
+
+
+
+
+
+
+
+

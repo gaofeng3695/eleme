@@ -1,0 +1,94 @@
+.login-top{
+	width: 100%;
+	height: 1.877333rem;
+	background:#3199e8;
+}
+.login-top span{
+	width: 10%;
+	height: 1.877333rem;
+	float: left;
+	line-height: 1.877333rem;
+	display: block;
+	color: #FFF;
+}
+.login-top span:nth-child(1){
+	margin-left:0.426667rem;
+	
+}
+.login-top span:nth-child(2){
+	text-align: center;
+	margin:0 30%;
+}
+.login-top span:nth-child(3){
+	float: right;
+	margin-right:0.426667rem;
+}
+.login-top span a{
+	display: block;
+	color: #FFF;
+}
+.login-top span b{
+	font-weight:bolder;
+}
+.login-top span a img{
+	display: block;
+	margin-top:0.426667rem;
+}
+.login-yz{
+	display: block;
+	background: #FFF;
+	width:15.146667rem;
+	padding:0.426667rem;
+	margin-bottom:0.426667rem;
+}
+.login-yz div{
+	margin-bottom: 0.426667rem;
+}
+.login-yz div input{
+	width: 14.72rem;
+	padding:0.341333rem 0.170667rem;
+	border:0.021333rem solid #ddd;
+	font-size:0.768rem;
+	background:#ddd;
+	border-radius:0.128rem;
+}
+.login-yz div .input-tip{
+	color: red;
+	font-size:0.597333rem;
+	line-height:0.96rem;
+	display: none;
+}
+.login-yz div .input-tip.active{
+	display: block;
+}
+.login-yz div .login-yzm{
+	width:7.04rem;
+}
+.login-yz div img{
+	width: 4.096rem;
+	height: 1.536rem;
+	margin:0.042667rem 0.533333rem; 
+}
+.login-yz button{
+	width: 100%;
+	height:1.706667rem;
+	background:#3199e8;
+	color: #FFF;
+	border-radius: 0.128rem;
+	border:0.021333rem;
+}
+.yff-forget{
+	width: 100%；
+
+}
+.yff-forget a{
+	color:#3199e8;
+}
+.yff-forget a:nth-child(1){
+	float: left;
+	margin-left: 0.426667rem;
+}
+.yff-forget a:nth-child(2){
+	float: right;
+	margin-right: 0.426667rem;
+}
